@@ -1,13 +1,11 @@
 /* @flow */
 import * as React from 'react';
 
+import MyFunctionalWidget from "./MyFunctionalWidget";
+
 class App extends React.Component<{}> {
   render() {
-    return (
-      <div>
-        App
-      </div>
-    );
+    return <MyFunctionalWidget name={123} type="good" />;
   }
 }
 

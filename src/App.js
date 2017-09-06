@@ -1,13 +1,11 @@
 /* @flow */
 import * as React from 'react';
 
+import MyClassyWidget from "./MyClassyWidget";
+
 class App extends React.Component<{}> {
   render() {
-    return (
-      <div>
-        App
-      </div>
-    );
+    return <MyClassyWidget name={123} type="good" />;
   }
 }
 
